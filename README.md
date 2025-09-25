@@ -2,14 +2,12 @@
 
 A modern and responsive CV portfolio website that mimics GitHub's original design. Built with React and Vite.
 
-![GitHub CV Portfolio Screenshot](https://via.placeholder.com/800x400/0d1117/ffffff?text=GitHub+CV+Portfolio)
+![GitHub CV Portfolio Screenshot](https://github.com/mustafakaracuha/github-cv-portfolio/blob/main/src/assets/app.png)
 
 ## 🎯 Live Demo
 
 🔗 **[View Live Demo](https://github-cv-portfolio.vercel.app)**
 
-![Desktop View](https://via.placeholder.com/400x250/161b22/ffffff?text=Desktop+View)
-![Mobile View](https://via.placeholder.com/200x400/161b22/ffffff?text=Mobile+View)
 
 ## ✨ Features
 
