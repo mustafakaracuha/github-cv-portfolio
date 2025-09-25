@@ -11,7 +11,7 @@ A modern and responsive CV portfolio website that mimics GitHub's original desig
 
 ## ✨ Features
 
-- 🎨 **GitHub-like Design** - Original GitHub dark theme     👀 [View Live Demo](https://github-cv-portfolio.vercel.app)
+- 🎨 **GitHub-like Design** - Original GitHub dark theme
 - 📱 **Responsive Design** - Mobile and desktop compatible
 - ⚡ **Fast Performance** - Optimized with Vite
 - 🔧 **Modern Technologies** - React 18, CSS3, SVG Icons
