@@ -35,21 +35,21 @@ const ProfileSidebar = () => {
         
         <div className="profile-stats">
           <UsersIcon />
-          <span><strong>352</strong> Takipçi · <strong>3</strong> Takip</span>
+          <span><strong>352</strong> followers · <strong>3</strong> following</span>
         </div>
 
         <div className="profile-info">
           <CompanyIcon />
-          <span>Detaysoft</span>
+          <span>@Detaysoft</span>
         </div>
         <div className="profile-info">
           <LocationIcon />
           <span>Sivas, Turkey</span>
         </div>
         <div className="profile-info">
-          <MailIcon />
-          <a href="mailto:karacuhaa58@gmail.com" target="_blank" rel="noopener noreferrer">
-            karacuhaa58@gmail.com
+          <LinkIcon />
+          <a href="https://mustafa-karacuha.vercel.app/" target="_blank" rel="noopener noreferrer">
+            https://mustafa-karacuha.vercel.app/
           </a>
         </div>
         <div className="profile-info">
@@ -59,9 +59,9 @@ const ProfileSidebar = () => {
           </a>
         </div>
         <div className="profile-info">
-          <LinkIcon />
-          <a href="https://github.com/mustafakaracuha" target="_blank" rel="noopener noreferrer">
-            github.com/mustafakaracuha
+          <InstagramIcon />
+          <a href="https://instagram.com/muskaracuha" target="_blank" rel="noopener noreferrer">
+            muskaracuha
           </a>
         </div>
         <div className="profile-info">
