@@ -632,6 +632,174 @@ button {
   border: 1px solid var(--color-border-default);
 }
 
+/* Frontend Technologies */
+.skill-tag.react {
+  background-color: #61dafb;
+  color: #000;
+  border-color: #61dafb;
+}
+
+.skill-tag.nextjs {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.skill-tag.vue {
+  background-color: #4fc08d;
+  color: #fff;
+  border-color: #4fc08d;
+}
+
+.skill-tag.angular {
+  background-color: #dd0031;
+  color: #fff;
+  border-color: #dd0031;
+}
+
+.skill-tag.javascript {
+  background-color: #f7df1e;
+  color: #000;
+  border-color: #f7df1e;
+}
+
+.skill-tag.typescript {
+  background-color: #3178c6;
+  color: #fff;
+  border-color: #3178c6;
+}
+
+/* State Management */
+.skill-tag.redux {
+  background-color: #764abc;
+  color: #fff;
+  border-color: #764abc;
+}
+
+.skill-tag.zustand {
+  background-color: #ff6b6b;
+  color: #fff;
+  border-color: #ff6b6b;
+}
+
+.skill-tag.vuex {
+  background-color: #4fc08d;
+  color: #fff;
+  border-color: #4fc08d;
+}
+
+/* UI Libraries */
+.skill-tag.css {
+  background-color: #1572b6;
+  color: #fff;
+  border-color: #1572b6;
+}
+
+.skill-tag.tailwind {
+  background-color: #06b6d4;
+  color: #fff;
+  border-color: #06b6d4;
+}
+
+.skill-tag.shadcn {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.skill-tag.material {
+  background-color: #0081cb;
+  color: #fff;
+  border-color: #0081cb;
+}
+
+.skill-tag.daisy {
+  background-color: #5a21b6;
+  color: #fff;
+  border-color: #5a21b6;
+}
+
+.skill-tag.headless {
+  background-color: #e11d48;
+  color: #fff;
+  border-color: #e11d48;
+}
+
+.skill-tag.antd {
+  background-color: #1890ff;
+  color: #fff;
+  border-color: #1890ff;
+}
+
+/* API & Version Control */
+.skill-tag.api {
+  background-color: #ff6b35;
+  color: #fff;
+  border-color: #ff6b35;
+}
+
+.skill-tag.git {
+  background-color: #f05032;
+  color: #fff;
+  border-color: #f05032;
+}
+
+.skill-tag.gitlab {
+  background-color: #fc6d26;
+  color: #fff;
+  border-color: #fc6d26;
+}
+
+.skill-tag.github {
+  background-color: #333;
+  color: #fff;
+  border-color: #333;
+}
+
+/* Design Tools */
+.skill-tag.figma {
+  background-color: #f24e1e;
+  color: #fff;
+  border-color: #f24e1e;
+}
+
+.skill-tag.photoshop {
+  background-color: #31a8ff;
+  color: #fff;
+  border-color: #31a8ff;
+}
+
+.skill-tag.illustrator {
+  background-color: #ff9a00;
+  color: #fff;
+  border-color: #ff9a00;
+}
+
+/* Çalışma Yaklaşımı - Eski Renkler */
+.skill-tag.agile {
+  background-color: #61dafb;
+  color: #000;
+  border-color: #61dafb;
+}
+
+.skill-tag.clean {
+  background-color: #4fc08d;
+  color: #fff;
+  border-color: #4fc08d;
+}
+
+.skill-tag.team {
+  background-color: #764abc;
+  color: #fff;
+  border-color: #764abc;
+}
+
+.skill-tag.discipline {
+  background-color: #f05032;
+  color: #fff;
+  border-color: #f05032;
+}
+
 /* Responsive Design */
 @media (max-width: 768px) {
   .main-content {
