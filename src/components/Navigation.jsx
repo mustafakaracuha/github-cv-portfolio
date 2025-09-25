@@ -9,7 +9,7 @@ const Navigation = ({ activeTab, setActiveTab }) => {
             className={`nav-tab ${activeTab === 'overview' ? 'active' : ''}`}
             onClick={() => setActiveTab('overview')}
           >
-            <BookIcon />
+            <BookIcon/>
             Genel
           </button>
           <button 

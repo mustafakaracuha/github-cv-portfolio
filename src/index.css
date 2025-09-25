@@ -235,7 +235,7 @@ button {
   display: flex;
   font-weight: 600;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
   position: relative;
 }
 
@@ -249,9 +249,10 @@ button {
 }
 
 .nav-tab svg {
-  width: 16px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   flex-shrink: 0;
+  color: #7d8590;
 }
 
 .nav-badge {
