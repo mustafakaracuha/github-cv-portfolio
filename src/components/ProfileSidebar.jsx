@@ -1,0 +1,76 @@
+import { 
+  BuildingIcon, 
+  CompanyIcon,
+  LocationIcon, 
+  LinkIcon, 
+  UsersIcon, 
+  LinkedInIcon, 
+  InstagramIcon, 
+  LightningIcon,
+  PhoneIcon,
+  MailIcon
+} from './Icons'
+
+const ProfileSidebar = () => {
+  return (
+    <aside className="sidebar">
+      <div className="profile-card">
+        <div className="profile-avatar-container">
+          <img 
+            src="/src/assets/profile.jpeg" 
+            alt="Mustafa Karaçuha" 
+            className="profile-avatar"
+          />
+          <div className="lightning-badge">
+            ⚡️
+          </div>
+        </div>
+        
+        <h1 className="profile-name">Mustafa</h1>
+        <h2 className="profile-username">mustafakaracuha</h2>
+        <p className="profile-title !text-white">Frontend Developer</p>
+        <button className="edit-profile-btn">Edit profile</button>
+        
+        <div className="profile-stats">
+          <UsersIcon />
+          <span><strong>352</strong> followers · <strong>3</strong> following</span>
+        </div>
+
+        <div className="profile-info">
+          <CompanyIcon />
+          <span>Detaysoft</span>
+        </div>
+        <div className="profile-info">
+          <LocationIcon />
+          <span>Sivas, Turkey</span>
+        </div>
+        <div className="profile-info">
+          <MailIcon />
+          <a href="mailto:karacuhaa58@gmail.com" target="_blank" rel="noopener noreferrer">
+            karacuhaa58@gmail.com
+          </a>
+        </div>
+        <div className="profile-info">
+          <LinkedInIcon />
+          <a href="https://linkedin.com/in/mustafakaracuha" target="_blank" rel="noopener noreferrer">
+            in/mustafakaracuha
+          </a>
+        </div>
+        <div className="profile-info">
+          <LinkIcon />
+          <a href="https://github.com/mustafakaracuha" target="_blank" rel="noopener noreferrer">
+            github.com/mustafakaracuha
+          </a>
+        </div>
+        <div className="profile-info">
+          <LinkIcon />
+          <a href="https://vercel.com/mustafa-karauhas-projects" target="_blank" rel="noopener noreferrer">
+            vercel.com/mustafa-karauhas-projects
+          </a>
+        </div>
+      </div>
+    </aside>
+  )
+}
+
+export default ProfileSidebar
