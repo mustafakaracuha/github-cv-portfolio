@@ -47,12 +47,6 @@ const ProfileSidebar = () => {
           <span>Sivas, Turkey</span>
         </div>
         <div className="profile-info">
-          <LinkIcon />
-          <a href="https://mustafa-karacuha.vercel.app/" target="_blank" rel="noopener noreferrer">
-            https://mustafa-karacuha.vercel.app/
-          </a>
-        </div>
-        <div className="profile-info">
           <LinkedInIcon />
           <a href="https://linkedin.com/in/mustafakaracuha" target="_blank" rel="noopener noreferrer">
             in/mustafakaracuha
@@ -62,6 +56,12 @@ const ProfileSidebar = () => {
           <InstagramIcon />
           <a href="https://instagram.com/muskaracuha" target="_blank" rel="noopener noreferrer">
             muskaracuha
+          </a>
+        </div>
+        <div className="profile-info">
+          <LinkIcon />
+          <a href="https://github-cv-portfolio.vercel.app/" target="_blank" rel="noopener noreferrer">
+          https://github-cv-portfolio.vercel.app/
           </a>
         </div>
         <div className="profile-info">
