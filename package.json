@@ -3,7 +3,14 @@
   "private": true,
   "version": "1.0.0",
   "description": "GitHub benzeri tasarımda modern CV portfolio websitesi",
-  "keywords": ["react", "cv", "portfolio", "github", "vite", "responsive"],
+  "keywords": [
+    "react",
+    "cv",
+    "portfolio",
+    "github",
+    "vite",
+    "responsive"
+  ],
   "author": "Mustafa Karaçuha",
   "homepage": "https://github.com/mustafakaracuha/github-cv-portfolio",
   "repository": {
@@ -18,6 +25,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "framer-motion": "^12.23.22",
     "react": "^19.1.1",
     "react-dom": "^19.1.1"
   },

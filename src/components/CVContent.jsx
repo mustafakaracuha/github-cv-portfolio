@@ -3,6 +3,7 @@ import Experience from './CVSections/Experience'
 import Education from './CVSections/Education'
 import Skills from './CVSections/Skills'
 import Projects from './CVSections/Projects'
+import { motion, AnimatePresence } from 'framer-motion'
 
 const CVContent = ({ activeTab }) => {
   const renderContent = () => {
@@ -30,9 +31,18 @@ const CVContent = ({ activeTab }) => {
 
   return (
     <section className="content-area">
-      <div className="cv-content">
-        {renderContent()}
-      </div>
+      <AnimatePresence mode="wait">
+        <motion.div 
+          key={activeTab}
+          className="cv-content"
+          initial={{ opacity: 0, y: 8 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: -8 }}
+          transition={{ duration: 0.25, ease: 'easeOut' }}
+        >
+          {renderContent()}
+        </motion.div>
+      </AnimatePresence>
     </section>
   )
 }

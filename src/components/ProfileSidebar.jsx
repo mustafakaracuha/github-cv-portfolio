@@ -11,11 +11,17 @@ import {
   MailIcon
 } from './Icons'
 import profile from '../assets/profile.jpeg'
+import { motion } from 'framer-motion'
 
 
 const ProfileSidebar = () => {
   return (
-    <aside className="sidebar">
+    <motion.aside 
+      className="sidebar"
+      initial={{ opacity: 0, y: 12 }}
+      animate={{ opacity: 1, y: 0 }}
+      transition={{ duration: 0.4, ease: 'easeOut' }}
+    >
       <div className="profile-card">
         <div className="profile-avatar-container">
           <img 
@@ -71,7 +77,7 @@ const ProfileSidebar = () => {
           </a>
         </div>
       </div>
-    </aside>
+    </motion.aside>
   )
 }
 
