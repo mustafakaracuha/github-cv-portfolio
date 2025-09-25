@@ -10,6 +10,8 @@ import {
   PhoneIcon,
   MailIcon
 } from './Icons'
+import profile from '../assets/profile.jpeg'
+
 
 const ProfileSidebar = () => {
   return (
@@ -17,7 +19,7 @@ const ProfileSidebar = () => {
       <div className="profile-card">
         <div className="profile-avatar-container">
           <img 
-            src="/src/assets/profile.jpeg" 
+            src={profile} 
             alt="Mustafa Karaçuha" 
             className="profile-avatar"
           />

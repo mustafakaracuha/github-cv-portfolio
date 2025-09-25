@@ -9,6 +9,7 @@ import {
   GridIcon,
   SearchIcon 
 } from './Icons'
+import profile from '../assets/profile.jpeg'
 
 const Header = () => {
   return (
@@ -52,7 +53,7 @@ const Header = () => {
             <GridIcon />
           </button>
             <img 
-              src="/src/assets/profile.jpeg" 
+              src={profile} 
               alt="Profile" 
               className="header-avatar"
             />
