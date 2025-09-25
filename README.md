@@ -33,18 +33,5 @@ A modern and responsive CV portfolio website that mimics GitHub's original desig
 - GitHub: [@mustafakaracuha](https://github.com/mustafakaracuha)
 - LinkedIn: [mustafakaracuha](https://linkedin.com/in/mustafakaracuha)
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request  
-
-## ⭐ Star
-
-If you like this project, please give it a star!
-
----
-
+----
 Made with ❤️ by Mustafa Karaçuha
