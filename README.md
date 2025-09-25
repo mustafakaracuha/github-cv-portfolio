@@ -16,7 +16,6 @@ A modern and responsive CV portfolio website that mimics GitHub's original desig
 - ⚡ **Fast Performance** - Optimized with Vite
 - 🔧 **Modern Technologies** - React 18, CSS3, SVG Icons
 - 📊 **Dynamic Content** - Tab-based CV sections
-- 🎯 **SEO Friendly** - Search engine optimized
 
 ## 🛠️ Technologies
 
