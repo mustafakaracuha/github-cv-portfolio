@@ -47,7 +47,7 @@ const OverviewContent = () => {
         <div className="overview-grid">
           <div className="overview-card">
             <h3>Profesyonel Deneyim</h3>
-            <p>2020'den beri aktif olarak frontend geliştirme yapıyorum. Kurumsal ve Ar-Ge projelerinde görev aldım.</p>
+            <p>2019'dan beri aktif olarak frontend geliştirme yapıyorum. Kurumsal ve Ar-Ge projelerinde görev aldım.</p>
           </div>
           <div className="overview-card">
             <h3>Teknoloji Stack</h3>
