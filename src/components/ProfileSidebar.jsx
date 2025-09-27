@@ -37,7 +37,7 @@ const ProfileSidebar = () => {
         <h1 className="profile-name">Mustafa</h1>
         <h2 className="profile-username">mustafakaracuha</h2>
         <p className="profile-title !text-white">Frontend Developer</p>
-        <button className="edit-profile-btn">Profili Düzenle</button>
+        <button className="edit-profile-btn">İletişime geç</button>
         
         <div className="profile-stats">
           <UsersIcon />
